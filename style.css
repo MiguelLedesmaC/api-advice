@@ -1,0 +1,79 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+/* Variables */
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+    --Monrope:'Manrope', sans-serif;
+}
+/* Variables End */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1.2rem;
+    background-color: var(--DarkBlue);
+}
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 54rem;
+    text-align: center;
+    gap: 2rem;
+    padding:3rem .956rem;
+    background-color: var(--DarkGrayishBlue);
+    border-radius: .8rem;
+    margin-bottom: 15rem;
+}
+#box__advice-number {
+    font-size: .8rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: var(--Monrope);
+    color: var(--NeonGreen);
+
+}
+#box__advice {
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: var(--Monrope);
+    color: var(--LightCyan);
+}
+.box__image-container img {
+    width: 100%;
+}
+
+.dice__circle {
+    position: absolute;
+    bottom: -1.6rem;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+    background-color: var(--NeonGreen);
+    border-radius: 100%;
+    cursor: pointer;
+}       
+
+
+.attribution { 
+    justify-self: end;
+    font-size: 15px; text-align: center;
+    color: var(--LightCyan); 
+}   
+.attribution a { 
+    color: var(--NeonGreen);
+}
