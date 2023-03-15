@@ -14,7 +14,7 @@ la cual mediante el botón de dado, te crea aleatoriamente un nuevo advice(conse
 * ✔️[Portofolio](https://miguelledesmac.github.io/Portofolio-Oficial/)
 
 ## Ver ejemplo en vivo
-✔️[Demo](ENLACEGITHUBPAGES)
+✔️[Demo]([ENLACEGITHUBPAGES](https://miguelledesmac.github.io/api-advice/))
 
 ## Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en la demo
@@ -22,6 +22,5 @@ Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble c
 ## Contacto
 Si quieres contactarme puedes escribirme a angelmiguellc35@gmail.com
 
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
 
 
